@@ -1,8 +1,8 @@
 ;; Press C-x C-e at the end of the next line to run this file test non-interactively
-;; (test-simple-run "emacs -batch -L %s -l %s" (file-name-directory (locate-library "test-simple.elc")) buffer-file-name)
+;; (test-simple-run "emacs -batch -L %s -L %s -l %s" (file-name-directory (locate-library "test-simple.elc")) (file-name-directory (locate-library "realgud.elc")) buffer-file-name)
 
 (load-file "./regexp-helper.el")
-(load-file "../realgud/debugger/pydbgr/init.el")
+(load-file "../pydbgr/init.el")
 
 (test-simple-start)
 

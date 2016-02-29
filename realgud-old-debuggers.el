@@ -29,6 +29,8 @@
 
 ;;; Code:
 
+;; (compile (format "EMACSLOADPATH=:%s:%s ./configure" (file-name-directory (locate-library "test-simple.elc")) (file-name-directory (locate-library "realgud.elc"))))
+
 (require 'load-relative)
 
 (defgroup realgud nil
