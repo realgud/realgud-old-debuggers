@@ -1,9 +1,9 @@
-;;; realgud.el --- A modular front-end for interacting with external debuggers
+;;; realgud-old-debuggers.el --- realgud front-end to older lesser-used debuggers
 
 ;; Author: Rocky Bernstein
 ;; Version: 1.0
 ;; Package-Requires: ((realgud "1.3"))
-;; URL: http://github.com/ko1/debugger2
+;; URL: http://github.com/rocky/realgud-old-debuggers
 ;; Compatibility: GNU Emacs 24.x
 
 ;; Copyright (C) 2016 Free Software Foundation, Inc
@@ -37,20 +37,19 @@
 
 (defgroup realgud nil
   "Realgud interface to Ruby debugger2 debugger"
-  :group 'realgud
+  :group 'processes
+  :group 'tools
   :version "24.3")
 
-(defun realgud:load-features()
-  (require-relative-list
-   '(
-     "./pydb/pydb"
-     "./pydbgr/pydbgr"
-     "./trepanx/trepanx"
-     "./trepan8/trepan8"
-     ) "realgud-")
-  )
+(require-relative-list
+ '(
+   "./pydb/pydb"
+   "./pydbgr/pydbgr"
+   "./trepanx/trepanx"
+   "./trepan8/trepan8"
+   ) "realgud-")
 
 (provide-me)
 
 
-;;; realgud-rdb2.el ends here
+;;; realgud-old-debuggers.el ends here
