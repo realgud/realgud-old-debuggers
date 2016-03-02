@@ -2,7 +2,7 @@
 
 ;; Author: Rocky Bernstein
 ;; Version: 1.0
-;; Package-Requires: ((realgud))
+;; Package-Requires: ((realgud "1.3"))
 ;; URL: http://github.com/ko1/debugger2
 ;; Compatibility: GNU Emacs 24.x
 
@@ -29,14 +29,15 @@
 
 ;;; Code:
 
-;; (compile (format "EMACSLOADPATH=:%s:%s ./configure" (file-name-directory (locate-library "test-simple.elc")) (file-name-directory (locate-library "realgud.elc"))))
+;; Press C-x C-e at the end of the next line configure the program in
+;; for building via "make" to get set up.
+;; (compile (format "EMACSLOADPATH=:%s:%s ./autogen.sh" (file-name-directory (locate-library "test-simple.elc")) (file-name-directory (locate-library "realgud.elc"))))
 
 (require 'load-relative)
 
 (defgroup realgud nil
   "Realgud interface to Ruby debugger2 debugger"
-  :group 'processes
-  :group 'tools
+  :group 'realgud
   :version "24.3")
 
 (defun realgud:load-features()
