@@ -35,8 +35,8 @@
 
 (require 'load-relative)
 
-(defgroup realgud nil
-  "Realgud interface to Ruby debugger2 debugger"
+(defgroup realgud-old-debuggers nil
+  "Realgud interface to older lesser-used debuggers"
   :group 'processes
   :group 'tools
   :version "24.3")
