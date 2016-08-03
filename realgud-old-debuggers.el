@@ -25,7 +25,7 @@
 
 ;;; Commentary:
 
-;; realgud support for the Ruby debugger2 debugger
+;; realgud support for various older debuggers
 
 ;;; Code:
 

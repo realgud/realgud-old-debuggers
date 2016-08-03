@@ -2,10 +2,11 @@
 ;;  `pydb' Main interface to pydb via Emacs
 (require 'load-relative)
 (require 'realgud)
+(require-relative-list '("core" "track-mode")   "realgud:pydb-")
+
 
 (declare-function pydb-query-cmdline   'realgud:pydb-core)
 (declare-function pydb-parse-cmd-args  'realgud:pydb-core)
-(declare-function realgud:run-debugger 'realgud:run)
 
 ;; This is needed, or at least the docstring part of it is needed to
 ;; get the customization menu to work in Emacs 24.

@@ -2,6 +2,7 @@
 ;;  `pydbgr' Main interface to pydbgr via Emacs
 (require 'load-relative)
 (require 'realgud)
+(require-relative-list '("core" "track-mode")   "realgud-pydbgr-")
 
 ;; This is needed, or at least the docstring part of it is needed to
 ;; get the customization menu to work in Emacs 24.

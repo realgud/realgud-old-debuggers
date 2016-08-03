@@ -2,7 +2,9 @@ lisp_files := $(wildcard *.el)
 lisp_LISP = $(lisp_files)
 EXTRA_DIST = $(lisp_files)
 MOSTLYCLEANFILES = *.elc
+EMACSLOADPATH=@EMACSLOADPATH@
 
+# This is the default rule, but we need to include an EMACLOADPATH
 .el.elc:
 	if test "$(EMACS)" != "no"; then \
 	  am__dir=. am__subdir_includes=''; \

@@ -44,10 +44,12 @@ AM_PATH_LISPDIR
 lispdir_realgud=$lispdir/realgud
 AC_SUBST([lispdir])
 AC_SUBST([lispdir_realgud])
+AC_SUBST([EMACSLOADPATH])
 
 AM_CONDITIONAL(INSTALL_EMACS_LISP, test "x$lispdir_realgud" != "x")
 
 AC_CONFIG_FILES([Makefile \
+		 common.mk \
 		 pydb/Makefile \
 		 pydbgr/Makefile \
 		 trepan8/Makefile \
