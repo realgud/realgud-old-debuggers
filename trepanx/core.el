@@ -3,7 +3,7 @@
 
 (require 'load-relative)
 (require 'realgud)
-(require-relative-list '("init" "core" "track-mode") "realgud:trepanx-")
+(require-relative-list '("init" "track-mode") "realgud:trepanx-")
 
 (declare-function realgud-parse-command-arg  'realgud-core)
 (declare-function realgud-query-cmdline      'realgud-core)

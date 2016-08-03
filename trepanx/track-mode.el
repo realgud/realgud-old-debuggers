@@ -20,7 +20,7 @@
 (require 'realgud)
 (require 'load-relative)
 
-(require-relative-list '("core" "init") "realgud:trepanx-")
+(require-relative-list '("init") "realgud:trepanx-")
 
 (realgud-track-mode-vars "trepanx")
 
