@@ -17,7 +17,7 @@
 
 ;; Ruby "trepan8" Debugger tracking a comint buffer.
 
-(eval-when-compile (require 'cl))
+(eval-when-compile (require 'cl-lib))
 (require 'load-relative)
 (require 'realgud)
 (require-relative-list '("core" "init") "realgud:trepan8-")

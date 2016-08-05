@@ -1,7 +1,7 @@
 ;;; Copyright (C) 2012, 2016 Rocky Bernstein <rocky@gnu.org>
 ;;; Stock Python debugger pydb
 
-(eval-when-compile (require 'cl))
+(eval-when-compile (require 'cl-lib))
 
 (require 'load-relative)
 (require 'realgud)

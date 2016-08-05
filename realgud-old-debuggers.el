@@ -1,8 +1,9 @@
 ;;; realgud-old-debuggers.el --- realgud front-end to older lesser-used debuggers
 
 ;; Author: Rocky Bernstein
-;; Version: 1.0
-;; Package-Requires: ((realgud "1.3"))
+;; Version: 1.1
+;; Package-Type: multi
+;; Package-Requires: ((realgud "1.4.3") (cl-lib "0.5") (emacs "24"))
 ;; URL: http://github.com/rocky/realgud-old-debuggers
 ;; Compatibility: GNU Emacs 24.x
 

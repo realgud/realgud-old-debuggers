@@ -14,7 +14,7 @@
   "The realgud interface to the Python pydb debugger"
   :group 'realgud
   :group 'python
-  :version "24.1")
+  :version "24.3")
 
 ;; -------------------------------------------------------------------
 ;; User-definable variables

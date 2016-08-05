@@ -2,7 +2,7 @@
 ;;
 ;; Python "pydbgr" Debugger tracking a comint buffer.
 
-(eval-when-compile (require 'cl))
+(eval-when-compile (require 'cl-lib))
 (require 'realgud)
 (require 'load-relative)
 

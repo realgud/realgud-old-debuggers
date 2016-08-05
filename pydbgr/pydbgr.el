@@ -10,7 +10,7 @@
   "The realgud interface to the Python pydbgr debugger"
   :group 'realgud
   :group 'python
-  :version "24.1")
+  :version "24.3")
 
 (declare-function pydbgr-query-cmdline  'realgud-pydbgr-core)
 (declare-function pydbgr-parse-cmd-args 'realgud-pydbgr-core)

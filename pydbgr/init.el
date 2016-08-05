@@ -1,7 +1,7 @@
-;;; Copyright (C) 2010-2012 Rocky Bernstein <rocky@gnu.org>
+;;; Copyright (C) 2010-2012, 2016 Rocky Bernstein <rocky@gnu.org>
 ;;; pydbgr: Python 2.5 but less than 3K
 
-(eval-when-compile (require 'cl))
+(eval-when-compile (require 'cl-lib))
 
 (require 'load-relative)
 (require 'realgud)

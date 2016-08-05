@@ -1,5 +1,5 @@
 ;;; Copyright (C) 2010, 2013 Rocky Bernstein <rocky@gnu.org>
-(eval-when-compile (require 'cl))
+(eval-when-compile (require 'cl-lib))
 
 (require 'load-relative)
 (require 'realgud)
