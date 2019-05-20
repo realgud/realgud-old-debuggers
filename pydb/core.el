@@ -128,7 +128,7 @@ NOTE: the above should have each item listed in quotes.
 
 (defun pydb-suggest-invocation (debugger-name)
   "Suggest a pydb command invocation via `realgud-suggest-invocaton'"
-  (realgud-suggest-invocation realgud:pydb-command-name
+  (realgud-suggest-invocation (or debugger-name realgud:pydb-command-name)
 			      realgud:pydb-minibuffer-history
 			      "python" "\\.py"))
 
